@@ -1,0 +1,92 @@
+html {
+    align-items: center;
+    color: #313131;
+    display: flex;
+    font: 22px "Courier New", Courier, monospace;
+    height: 100%;
+    justify-content: center;
+    margin: 0;
+    background: rgb(17, 17, 17);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    margin: 1em;
+    padding: 1em;
+}
+
+.menu {
+    font-size: 2em;
+    grid-column: 1 / -1;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: hotpink;
+}
+
+.menu a:hover {
+    color: paleturquoise;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+nav {
+    display: grid;
+    grid-row-gap: 1em;
+    grid-template-columns: 1fr 1fr;
+    margin: 0em 1em;
+    min-width: 24em;
+    padding: 1em 1em;
+    color: paleturquoise;
+    background-color: #222;
+    text-align: justify;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+
+#chae {
+    border: 0px solid paleturquoise;
+    height: 16em;
+    object-fit: contain;
+    object-position: 50% 100%;
+    width: 16em;
+}
+
+img {
+    height: 25px;
+}
+
+#searchcontainer {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    left: 1%;
+    top: 5%;
+}
+
+.searchBar {
+    width: 45%;
+    padding: 15px;
+    text-align: center;
+    background-color: #222;
+    color: hotpink;
+    font-size: 20px;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+    border: 2px ridge paleturquoise;
+}
